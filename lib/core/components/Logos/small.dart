@@ -6,8 +6,8 @@ import '../../colors/colors.dart';
 class SwitchSmallLogo extends StatelessWidget {
   _leftSideSmallLogo() => Container(
         padding: EdgeInsets.all(2),
-        height: 70,
-        width: 35,
+        height: 60,
+        width: 30,
         decoration: BoxDecoration(
           border: Border.all(color: AppColors.screen, width: 7),
           gradient: LinearGradient(
@@ -34,8 +34,8 @@ class SwitchSmallLogo extends StatelessWidget {
 
   _rightSideSmallLogo() => Container(
         padding: EdgeInsets.all(2),
-        height: 70,
-        width: 35,
+        height: 60,
+        width: 30,
         decoration: BoxDecoration(
           border: Border.all(color: AppColors.screen, width: 9),
           color: AppColors.screen,

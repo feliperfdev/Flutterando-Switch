@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../../colors/colors.dart';
-import 'shared/joy_widgets.dart';
+import 'shared/joy-left/joy_l.dart';
 
 class LeftSide extends StatelessWidget {
   @override

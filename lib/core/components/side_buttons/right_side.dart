@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:nintendo_swt/core/components/side_buttons/shared/joy_widgets.dart';
 
 import '../../colors/colors.dart';
+import 'shared/joy-right/joy_r.dart';
 
 class RightSide extends StatelessWidget {
   @override

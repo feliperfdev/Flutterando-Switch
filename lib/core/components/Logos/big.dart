@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 
 import '../../colors/colors.dart';
-import '../../colors/colors.dart';
 
 class SwitchBigLogo extends StatelessWidget {
   _leftSideSmallLogo() => Container(
         alignment: Alignment.center,
         padding: EdgeInsets.only(left: 2, right: 2, top: 12),
-        height: 170,
-        width: 80,
+        height: 150,
+        width: 70,
         decoration: BoxDecoration(
           border: Border.all(color: Colors.white, width: 9),
           borderRadius: BorderRadius.only(
@@ -20,15 +19,15 @@ class SwitchBigLogo extends StatelessWidget {
           alignment: Alignment.topCenter,
           child: CircleAvatar(
             backgroundColor: Colors.white,
-            radius: 17,
+            radius: 15,
           ),
         ),
       );
 
   _rightSideSmallLogo() => Container(
         padding: EdgeInsets.all(2),
-        height: 170,
-        width: 80,
+        height: 150,
+        width: 70,
         decoration: BoxDecoration(
           border: Border.all(color: Colors.white, width: 9),
           color: Colors.white,
@@ -43,7 +42,7 @@ class SwitchBigLogo extends StatelessWidget {
             alignment: Alignment.center,
             child: CircleAvatar(
               backgroundColor: AppColors.screen,
-              radius: 18,
+              radius: 16,
             ),
           ),
         ),
